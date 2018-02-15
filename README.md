@@ -18,7 +18,7 @@
   
   <br>
   
-  [Link to codes and results]()
+  [Link to codes and results](https://github.com/nelsonxw/Matplotlib_Charts/blob/master/Pyber_charts.ipynb)
 
 
 ```python
