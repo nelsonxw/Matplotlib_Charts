@@ -150,21 +150,16 @@ sns.set_style("dark")
 fig, ax = plt.subplots(figsize=(9,6))
 # add grid
 plt.grid()
-# add subplot title
+# add subplot title, x axis and y axis labels
 ax.set_title('Pyber Ride Sharing Data (2016)')
-#add subplot x axis label
 ax.set_xlabel('Total Number of Riders (Per City)')
-# add subplot y axis label
 ax.set_ylabel('Average Fare ($)')
-# set x axis limit
+# set x axis and y axis limits
 ax.set_xlim(0,x_limit)
-# set y axis limit
 ax.set_ylim(y_limit_l,y_limit_u)
-# plot bubble chart (with scatter) for urban data, set color to light coral with black edge and linewidth of 1
+# plot bubble chart (with scatter) for urban, suburban and rural data, set color, edge and linewidth
 plt.scatter(ride_urban,average_fare_urban,driver_count_urban*10,color='coral',alpha=0.8,edgecolor='k',linewidth=1)
-# plot bubble chart (with scatter) for suburban data, set color to gold with black edge and linewidth of 1
 plt.scatter(ride_suburban,average_fare_suburban,driver_count_suburban*10,color='gold',edgecolor='k',linewidth=1)
-# plot bubble chart (with scatter) for rural data, set color to light sky blue with black edge and linewidth of 1
 plt.scatter(ride_rural,average_fare_rural,driver_count_rural*10,color='skyblue',alpha=0.7,edgecolor='k',linewidth=1)
 # add subplot legend and legend's title
 lgnd = plt.legend(['Urban','Suburban','Rural'],title='City Types')
@@ -250,7 +245,7 @@ for text in autotexts:
 for text in texts:
     text.set_fontsize(15)
 # create plot title
-plt.title('% of Total Rides by City Type',fontsize=15)
+plt.title('% of Total Drivers by City Type',fontsize=15)
 # show plot
 plt.show()
 ```
