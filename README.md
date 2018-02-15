@@ -1,19 +1,19 @@
 # Matplotlib Charts
-* Observed trend 1
-
+* Observed trend 1  
+  The dominant market for Pyber will be urban cities which has the majority of total drivers, total rides and total fares among all cities.
   
   
   <br>
 
-* Observed trend 2
-
+* Observed trend 2  
+  Although urban cities have more drivers and rides, the avaerage fare is lower which indicates urban market is more price competitive.
   
   
   <br>
   
 
-* Observed trend 3
-
+* Observed trend 3  
+  Some suburban cities have large amount of rides, but the number of drivers are relatively lower.  As a result, these cities have higher average fare than those urban cities with similar amount of rides.
   
   
   <br>
